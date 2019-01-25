@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER blog.51cto.com/ganbing
+MAINTAINER habi
 ENV TIME_ZOME Asia/Shanghai
 RUN yum install -y gcc gcc-c++ make gd-devel libxml2-devel libcurl-devel libjpeg-devel libpng-devel openssl-devel
 ADD php-5.6.38.tar.gz /tmp/
